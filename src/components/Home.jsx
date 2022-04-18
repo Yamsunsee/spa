@@ -4,8 +4,8 @@ const Home = () => {
   return (
     <div>
       <div className="nav">
-        <Link to="product">Product</Link>
-        <Link to="about">About</Link>
+        <Link to="/spa/product">Product</Link>
+        <Link to="/spa/about">About</Link>
       </div>
       <div>
         <h1>Home page</h1>

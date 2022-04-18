@@ -6,9 +6,9 @@ import Product from "./components/Product"
 const App = () => {
   return (
     <Routes>
-      <Route path="" element={<Home />}></Route>
-      <Route path="/product" element={<Product />}></Route>
-      <Route path="/about" element={<About />}></Route>
+      <Route path="/spa" element={<Home />}></Route>
+      <Route path="/spa/product" element={<Product />}></Route>
+      <Route path="/spa/about" element={<About />}></Route>
     </Routes>
   )
 }

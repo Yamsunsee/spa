@@ -4,8 +4,8 @@ const Product = () => {
   return (
     <div>
       <div className="nav">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/spa">Home</Link>
+        <Link to="/spa/about">About</Link>
       </div>
       <div>
         <h1>Product page</h1>

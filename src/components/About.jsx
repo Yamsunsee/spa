@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div>
       <div className="nav">
-        <Link to="/">Home</Link>
-        <Link to="/product">Product</Link>
+        <Link to="/spa">Home</Link>
+        <Link to="/spa/product">Product</Link>
       </div>
       <div>
         <h1>About page</h1>
